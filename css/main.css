@@ -1,0 +1,53 @@
+/*
+  Centers the preloader
+*/
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+.section-welcome {
+  padding: 50px;
+}
+
+.section-website-stats {
+  position: relative;
+  background: url('https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 200px;
+}
+
+.section-website-stats .primary-overlay {
+  background: rgba(187, 222, 251, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section-website-stats h1 {
+  margin: -0;
+}
+
+.section-social .fab {
+  padding-top: 10px;
+}
+
+/*
+  Changes the coloured strip
+  on input fields
+*/
+.input-field input:focus + label {
+  color: #236add !important;
+}
+
+.input-field input:focus {
+  border-bottom: 1px solid #236add !important;
+  box-shadow: 0 1px 0 0 #236add !important;
+}
